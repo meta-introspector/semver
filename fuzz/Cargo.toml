@@ -12,7 +12,7 @@ cargo-fuzz = true
 libfuzzer-sys = "0.4"
 semver = { path = ".." }
 
-[workspace]
+#[workspace]
 
 [[bin]]
 name = "parse_version"
